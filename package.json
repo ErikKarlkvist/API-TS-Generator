@@ -1,0 +1,26 @@
+{
+  "name": "api-ts-generator",
+  "version": "1.0.0",
+  "description": "This is a small script that generates TS files based on the response object of an external API",
+  "main": "generate-model.js",
+  "scripts": {
+    "genmod": "node generate-model.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikKarlkvist/API-TS-Generator.git"
+  },
+  "keywords": [
+    "Typescript",
+    "API"
+  ],
+  "author": "Emil Axelsson Sebastian Nilsson Erik Karlkvist Jonas Åkesson Filip Larsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikKarlkvist/API-TS-Generator/issues"
+  },
+  "homepage": "https://github.com/ErikKarlkvist/API-TS-Generator#readme",
+  "dependencies": {
+    "ajax-request": "^1.2.3"
+  }
+}
